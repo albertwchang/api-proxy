@@ -6,6 +6,10 @@
   "scripts": {
     "test": "npm test"
   },
+ "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:albertwchang/test-api.git"
+  },
   "author": "albert w. chang",
   "license": "MIT",
   "dependencies": {
@@ -13,6 +17,8 @@
     "fastify-cors": "^6.0.2",
     "fastify-redis": "^4.3.3",
     "fastify-routes": "^3.1.0",
+    "fastify-sse": "^1.0.0",
+    "http-status-codes": "^2.2.0",
     "nodemon": "^2.0.15"
   }
 }
