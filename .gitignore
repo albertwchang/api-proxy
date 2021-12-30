@@ -1,0 +1,13 @@
+.DS_STORE
+*.log
+
+node_modules
+.idea
+target
+dist
+coverage
+config/ssl
+junit.xml
+
+# Unit Test report output
+.out/test-results/

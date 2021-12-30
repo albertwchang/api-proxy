@@ -1,0 +1,18 @@
+{
+  "name": "towmo-api",
+  "version": "0.0.1",
+  "description": "API server for experimentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "albert w. chang",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.25.3",
+    "fastify-cors": "^6.0.2",
+    "fastify-redis": "^4.3.3",
+    "fastify-routes": "^3.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
