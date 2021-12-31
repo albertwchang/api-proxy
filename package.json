@@ -1,14 +1,14 @@
 {
-  "name": "test-api",
+  "name": "api-proxy",
   "version": "0.0.1",
-  "description": "API server for experimentation",
+  "description": "API server/proxy for experimentation",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
  "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:albertwchang/test-api.git"
+    "url": "git+ssh://git@github.com:albertwchang/api-proxy.git"
   },
   "author": "albert w. chang",
   "license": "MIT",

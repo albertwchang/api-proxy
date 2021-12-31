@@ -1,6 +1,6 @@
 const fastify = require('fastify')({ logger: true });
 
-fastify.get('/', async (req, res) => ({ hello: 'world' }));
+fastify.get('/', async (want, res) => ({ hello: 'world' }));
 
 async function start() {
   try {
