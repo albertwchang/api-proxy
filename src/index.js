@@ -1,21 +1,17 @@
 const fastify = require('fastify')({ logger: true });
-const nasaRoute = require('./routes/nasa');
+const weatherRoute = require('./routes/weather');
 const PORT = 3000;
 
-fastify.register(nasaRoute);
+fastify.register(weatherRoute, {prefix: '/v1'});
 fastify.get('/', function (ask, reply) {
   reply
     .code(200)
     .send({ data: "Hello there! '/' Works just fine!" });
 });
 
-function start() {
-    fastify.listen(PORT, (err, address) => {
-      if (err) {
-        fastify.log.error(err);
-        process.exit(1);
-      }
-    });
-}
-
-start();
+fastify.listen(PORT, (err, address) => {
+  if (err) {
+    fastify.log.error(err);
+    process.exit(1);
+  }
+});
