@@ -20,11 +20,6 @@ module.exports = function(fastify, options, done) {
     let code;
     let results = await cache.get(zip);
 
-    console.log("Keys for process.env...");
-    for (const key in process.env) {
-	console.log(`*** ${key}`);
-    }
-
     if (results) {
       code = 200;
       console.log(`*** Fetched ${zip} weather data from cache`);
