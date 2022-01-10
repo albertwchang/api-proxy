@@ -1,3 +1,4 @@
+require('dotenv').config();
 const fastify = require('fastify')({ logger: true });
 const weatherRoute = require('./routes/weather');
 const PORT = 3000;

@@ -11,3 +11,6 @@ junit.xml
 
 # Unit Test report output
 .out/test-results/
+
+# Environment vars
+*.env
