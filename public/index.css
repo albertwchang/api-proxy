@@ -1,0 +1,35 @@
+:root {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+span,
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  gap: 5rem;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  border-radius: 0.75rem;
+  padding-inline: 3rem;
+  padding-block: 0.5rem;
+  border: 0.5px solid #A4A4A4;
+}
+
+header > * {
+  font-size: 4rem;
+  font-weight: 200;
+}
