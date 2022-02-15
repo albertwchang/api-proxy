@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 
-header {
+header, .intro {
   border-radius: 0.75rem;
   padding-inline: 3rem;
   padding-block: 0.5rem;
